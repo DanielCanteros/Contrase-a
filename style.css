@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: darkorange;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sombra{
+    background-color: rgba(66, 66, 66, 0.692);
+    height: 34vh;
+    width: 54vh;
+    border: 0;
+    border-radius: 30px;
+}
+
+.contenedor{
+    display: flex;
+    background-color: white;
+    height: 32vh;
+    width: 52vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 30px;
+    transition-duration:0.4s;
+    padding: 1vh;
+}
+
+.contenedor:hover{
+    height: 30vh;
+    width: 50vh;
+}
+
+#contraseña{
+    font-size: 40px;
+}
+
+#generador{
+    font-size: 30px;
+    background-color: darkorange;
+    color: white;
+    border: 0;
+    padding: 1vh;
+    border-radius: 20px;
+    user-select: none;
+    cursor: pointer;
+    margin: 1vh;
+}
+
+#copiador{
+    font-size: 30px;
+    background-color: darkorange;
+    color: white;
+    border: 0;
+    padding: 1vh;
+    border-radius: 100px;
+    user-select: none;
+    cursor: pointer;
+}
+
+
+
+
